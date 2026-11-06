@@ -1,6 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
 import data from '../data/portfolio-content.json';
 
+const assetUrl = (path: string) =>
+  `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
+
 const { personal, summary, education, experience, projects, skills, certifications, extracurricular } = data;
 
 function useTypewriter(text: string, speed = 32, startDelay = 400) {
@@ -838,7 +841,7 @@ export function MainframePortfolio() {
             <div className="lg:col-span-5 glass-panel rounded-3xl p-8 flex flex-col items-center text-center">
               <div className="w-48 h-48 sm:w-56 sm:h-56 rounded-2xl overflow-hidden border border-white/20 mb-6 shadow-2xl relative">
                 <img
-                  src="/assets/profile/profile.jpg"
+                  src={assetUrl('/assets/profile/profile.jpg')}
                   alt={personal.name}
                   className="w-full h-full object-cover object-top"
                 />
@@ -857,7 +860,7 @@ export function MainframePortfolio() {
               {/* FAST NUCES Badge */}
               <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/15 mb-6">
                 <div className="w-5 h-5 rounded-full bg-white flex items-center justify-center p-0.5 overflow-hidden">
-                  <img src="/assets/logos/fast_nuces.png" alt="FAST NUCES" className="w-full h-full object-contain" />
+                  <img src={assetUrl('/assets/logos/fast_nuces.png')} alt="FAST NUCES" className="w-full h-full object-contain" />
                 </div>
                 <span className="text-xs font-mono text-white font-medium">FAST NUCES &bull; FinTech</span>
               </div>
@@ -1037,7 +1040,7 @@ export function MainframePortfolio() {
                     <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white p-2.5 flex items-center justify-center flex-shrink-0 shadow-lg border border-white/30">
                       {exp.logo ? (
                         <img
-                          src={exp.logo}
+                          src={assetUrl(exp.logo)}
                           alt={exp.company}
                           className="w-full h-full object-contain"
                         />
@@ -1191,7 +1194,7 @@ export function MainframePortfolio() {
                     <div className="w-16 h-16 rounded-2xl bg-white p-2 flex items-center justify-center flex-shrink-0 shadow-lg border border-white/30">
                       {edu.logo ? (
                         <img
-                          src={edu.logo}
+                          src={assetUrl(edu.logo)}
                           alt={edu.institution}
                           className="w-full h-full object-contain"
                         />
