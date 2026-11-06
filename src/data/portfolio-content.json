@@ -1,0 +1,199 @@
+{
+  "personal": {
+    "name": "Moheed Ul Hassan",
+    "title": "FinTech Professional",
+    "location": "Rawalpindi, Pakistan",
+    "email": "hassanmoheed86@gmail.com",
+    "linkedin": "https://linkedin.com/in/moheed-hassan"
+  },
+  "summary": "Financial Technology professional combining analytical rigor in corporate finance with Python-driven quantitative engineering. Hands-on experience in institutional accounts payable at a microfinance bank—managing petty cash, voucher settlements, invoice processing, ledger reconciliations, and three-way matching. Proven track record in multi-asset portfolio optimization (Markowitz MPT vs. ML), firm valuation (DDM and multiples-based), event-driven stock return forecasting using XGBoost, and executive dashboard development in Power BI.",
+  "education": [
+    {
+      "institution": "FAST – National University of Computer & Emerging Sciences",
+      "location": "Islamabad, Pakistan",
+      "degree": "Bachelor's in Financial Technology",
+      "period": "2022 – 2026",
+      "logo": "/assets/logos/fast_nuces.png",
+      "achievements": [
+        "Dean's List of Honour - 8th Semester (GPA 3.93)",
+        "Dean's List of Honour - 7th Semester (GPA 3.80)"
+      ]
+    },
+    {
+      "institution": "Saint Mary's Academy",
+      "location": "Rawalpindi, Pakistan",
+      "degree": "Intermediate (Pre-Engineering)",
+      "period": "2019",
+      "logo": "/assets/logos/saint_marys_academy.png"
+    },
+    {
+      "institution": "Saint Mary's Academy",
+      "location": "Rawalpindi, Pakistan",
+      "degree": "Matric",
+      "period": "2017",
+      "logo": "/assets/logos/saint_marys_academy.png"
+    }
+  ],
+  "experience": [
+    {
+      "company": "U Microfinance Bank",
+      "location": "Pakistan",
+      "role": "Accounts Payable Intern (Finance)",
+      "period": "2025",
+      "logo": "/assets/logos/ubank.png",
+      "department": "Accounts Payable — Finance Department",
+      "responsibilities": [
+        "Handled petty cash management and rental expense processing for the accounts payable function",
+        "Dealt with vendor and client invoices, ensuring timely and accurate processing",
+        "Performed account reconciliations to align ledger balances with supporting documentation",
+        "Prepared and submitted payment vouchers and terminos for approval and settlement",
+        "Executed three-way matching of purchase orders, invoices, and receipts before releasing payments",
+        "Maintained accurate records across the accounts payable workflow to support clean audit trails"
+      ]
+    },
+    {
+      "company": "IMARAT Group",
+      "location": "Pakistan",
+      "role": "Finance Intern",
+      "period": "2024",
+      "logo": "/assets/logos/imarat.png",
+      "responsibilities": [
+        "Assisted in financial reporting, budgeting, and cost analysis to support accurate and timely internal reporting cycles",
+        "Compiled and reviewed financial statements and supporting schedules, helping maintain data accuracy across reporting periods",
+        "Assisted in preparing budgets and tracking cost variances against forecasts to support departmental planning",
+        "Conducted cost analysis to identify potential efficiencies and support expense-optimization decisions",
+        "Supported firm valuation exercises using financial modeling and valuation techniques",
+        "Provided financial analysis and insights that informed internal management and decision-making processes"
+      ]
+    },
+    {
+      "company": "Inter-Services Public Relations (ISPR)",
+      "location": "Pakistan",
+      "role": "Intern",
+      "period": "2023",
+      "logo": "/assets/logos/ispr.png",
+      "responsibilities": [
+        "Worked on strategic communication initiatives, supporting the development and coordination of organizational messaging",
+        "Conducted media analysis to track coverage trends and inform communication planning",
+        "Supported digital media handling, including content organization and platform-level coordination",
+        "Assisted with data management tasks, ensuring information was accurately organized and readily accessible"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI-Enhanced Cryptocurrency Portfolio Optimization",
+      "category": "FinTech",
+      "tags": ["Python", "AI/ML", "Portfolio Optimization", "Cryptocurrency"],
+      "description": "Final Year Project - A cryptocurrency portfolio optimization tool integrating traditional financial theory with AI-based optimization techniques",
+      "details": [
+        "Sourced and processed real-time and historical market data via the CoinGecko and Yahoo Finance APIs",
+        "Applied risk-return optimization and diversification techniques to construct efficient digital-currency portfolios",
+        "Benchmarked classical portfolio theory (Markowitz Modern Portfolio Theory) against machine learning-based optimization approaches",
+        "Analyzed portfolio performance across varying risk profiles to assess robustness and practical viability"
+      ]
+    },
+    {
+      "title": "PayBuddy – FinTech Cybersecurity App",
+      "category": "FinTech",
+      "tags": ["Python", "Streamlit", "Cybersecurity", "Payments"],
+      "description": "A secure FinTech payment application with authentication and transaction validation",
+      "details": [
+        "Developed a secure FinTech payment application with authentication and transaction validation",
+        "Implemented security controls for financial data protection"
+      ]
+    },
+    {
+      "title": "Event-Driven Stock Price Forecasting Using Machine Learning",
+      "category": "AI/ML",
+      "tags": ["Python", "XGBoost", "Machine Learning", "Stock Forecasting"],
+      "description": "Developed an XGBoost machine learning pipeline to forecast stock returns by incorporating major sporting events and company sponsorships",
+      "details": [
+        "Developed an XGBoost machine learning pipeline to forecast stock returns",
+        "Incorporated major sporting events and company sponsorships as features",
+        "Improved prediction accuracy during high-impact dates"
+      ]
+    },
+    {
+      "title": "Portfolio Analysis & Optimization",
+      "category": "Finance",
+      "tags": ["Excel", "Power BI", "Portfolio Theory", "Data Visualization"],
+      "description": "Optimized a 6-security portfolio using Excel Solver and Modern Portfolio Theory",
+      "details": [
+        "Achieved 20.7% improvement in risk-adjusted returns",
+        "Visualized performance through an interactive Power BI dashboard"
+      ]
+    },
+    {
+      "title": "Outlet Management System with Blockchain",
+      "category": "Blockchain",
+      "tags": ["Solidity", "Ethereum", "Blockchain"],
+      "description": "Built a blockchain-based system for transparent and tamper-proof transactions",
+      "details": [
+        "Developed smart contracts for transparent transaction recording",
+        "Implemented tamper-proof transaction validation"
+      ]
+    },
+    {
+      "title": "Financial Reports & Analysis Project",
+      "category": "Finance",
+      "tags": ["Financial Analysis", "Ratio Analysis", "Valuation"],
+      "description": "Conducted comprehensive financial statement and annual report analysis",
+      "details": [
+        "Performed ratio, risk, and investment evaluation",
+        "Analyzed financial statements for investment decision-making"
+      ]
+    }
+  ],
+  "skills": {
+    "finance": [
+      "Investment & Portfolio Optimization",
+      "Risk Analysis",
+      "Firm Valuation",
+      "DDM & Multiples-Based Valuation",
+      "Financial Reports Analysis",
+      "Financial Reporting & Budgeting",
+      "Cost Analysis",
+      "Decision Making"
+    ],
+    "technical": [
+      "Python (incl. Python for Finance)",
+      "C/C++",
+      "MySQL, MongoDB",
+      "Machine Learning",
+      "LLMs & RAG Architecture",
+      "FastAPI & MLOps",
+      "Kali Linux",
+      "FinTech Security Fundamentals"
+    ],
+    "analytics": [
+      "Power BI",
+      "MS Excel & Data Mining",
+      "E-Views & SPSS",
+      "Data Analysis & Management",
+      "Strategic Communication",
+      "Management & Organization"
+    ]
+  },
+  "certifications": [
+    {
+      "title": "Generative AI Engineering",
+      "issuer": "PIAC Pakistan",
+      "year": "2024",
+      "description": "Focused on developing scalable AI applications using Generative AI technologies, including LLMs and Custom GPTs with Python"
+    },
+    {
+      "title": "Digital Banking & Payment Industry",
+      "issuer": "FAST NUCES",
+      "year": "2024",
+      "description": "University Coursework (FT4005) - Studied digital banking operations, payment systems, and regulatory frameworks within the financial services industry"
+    }
+  ],
+  "extracurricular": [
+    {
+      "role": "Head of Media & Coverage",
+      "organization": "Fast Management Society (FMS)",
+      "description": "Managed media operations, event coverage, and strategic communication"
+    }
+  ]
+}
